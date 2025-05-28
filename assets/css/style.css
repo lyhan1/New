@@ -1,0 +1,81 @@
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: #fefefe;
+  color: #333;
+}
+header {
+  background: #001f3f;
+  padding: 20px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .logo {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+nav a {
+  color: white;
+  margin-left: 15px;
+  text-decoration: none;
+  font-weight: 300;
+}
+.hero {
+  background: linear-gradient(to right, #0074D9, #7FDBFF);
+  padding: 80px 20px;
+  text-align: center;
+  color: white;
+}
+.hero h1 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+}
+.cta-btn {
+  margin-top: 20px;
+  padding: 12px 24px;
+  background: white;
+  color: #0074D9;
+  text-decoration: none;
+  border-radius: 30px;
+  font-weight: bold;
+}
+.services {
+  padding: 60px 20px;
+  background: #f4f6f9;
+  text-align: center;
+}
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 30px;
+}
+.card {
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.1);
+  width: 280px;
+}
+.contact {
+  padding: 60px 20px;
+  background: #fff;
+  text-align: center;
+}
+footer {
+  background: #001f3f;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 20px;
+}
+@media(max-width: 768px) {
+  .cards {
+    flex-direction: column;
+    align-items: center;
+  }
+}
